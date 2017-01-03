@@ -22,7 +22,7 @@ years = range(1880,2011)
 pieces = []
 columns = ['name','sex','births']
 for year in years:
-	path = 'F:\\Dropbox\\python\\Python for data analysis Wes\\pydata-book-master\\ch02\\names\\yob%d.txt' % year
+	path = 'F:\\Dropbox\\NiranjanStack\\PythonDataAnalysis\\baby_names_datasets\\yob%d.txt' % year
 	frame = pd.read_csv(path, names=columns)
 	frame['year'] = year
 	pieces.append(frame)
