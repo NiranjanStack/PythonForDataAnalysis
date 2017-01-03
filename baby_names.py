@@ -1,7 +1,7 @@
 # Analyzing Baby Names
 
 import pandas as pd
-names1880 = pd.read_csv('F:\\Dropbox\\python\\Python for data analysis Wes\\pydata-book-master\\ch02\\names\\yob1880.txt', names=['name', 'sex', 'births'])
+names1880 = pd.read_csv('F:\\Dropbox\\NiranjanStack\\PythonDataAnalysis\\yob1880.txt', names=['name', 'sex', 'births'])
 names1880.groupby('sex').births.sum()
 
 ####   __fixes if sum=0 	########################################################
